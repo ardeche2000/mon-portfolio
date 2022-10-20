@@ -1,0 +1,454 @@
+@font-face {
+    font-family: 'pourTitre';
+    src: url("font/Euclid\ Circular\ A\ Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: 'pourMintitre';
+        src: url("font/Euclid\ Circular\ A\ Medium.ttf") format("truetype");
+        }
+    @font-face {
+        font-family: 'pourPara';
+        src: url("font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+        }
+.section_header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('images/header.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*style menu*/
+.navbar{
+    background-color: rgb(0.8, 0.8, 0.8);
+}
+.navbar ul li{
+    font-family: 'pourPara';
+    margin: 12px 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar ul li a{
+    color:  white!important;
+}
+.navbar ul li a.active, .navbar ul li a:hover{
+  color: #ff5080 !important;
+}
+.navbar-brand{
+  color: #ff5080 !important;
+  font-family: 'pourTitre';
+  font-size: 14px;
+}
+/*style milieu header*/
+.section_header .col-md-8{
+    margin-top: 17%;
+}
+.section_header .col-md-8 h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'pourMintitre';
+    margin-bottom: 3%;
+}
+.section_header .col-md-8 h2{
+    color: white;
+    font-size: 35px;
+    font-family: 'pourPara';
+    margin-bottom: 5%;
+}
+.section_header .col-md-8 h2 span{
+    color: #ff5080;
+    font-size: 35px;
+    font-family: 'pourPara';
+}
+.section_header .col-md-8 ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+}
+.section_header .col-md-8 .btn-primary{
+    border-radius: 25px;
+    font-size: 17px;
+    font-family: 'pourPara';
+    width: 240px;
+    height: 46px;
+    border-color: #ff5080;
+    background-color: #ff5080;
+}
+.section_header .col-md-8 .btn-primary:hover{
+    border-color: white;
+    background-color: white;
+    color: #ff5080;
+}
+.section_header .col-md-8 .btn-danger{
+    border-radius: 25px;
+    font-size: 17px;
+    font-family: 'pourPara';
+    width: 240px;
+    height: 46px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+.section_header .col-md-8 .btn-danger:hover{
+    border-color: #ff5080;
+    background-color: #ff5080;
+    color: white;
+}
+/*style section apropos*/
+.section_apropos .container{
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.section_apropos .col-md-3{
+    box-shadow: 1px 1px 10px rgba(154, 152, 152, 0.147);
+    border-radius: 18px;
+}
+.section_apropos .col-md-3:hover{
+    box-shadow: 1px 1px 10px #ff507f34;
+}
+.section_apropos .col-md-6{
+    margin-top: 5%;
+}
+.section_apropos .col-md-6 h2{
+    font-family: 'pourPara';
+    font-size: 35px;
+    color: #3F3D56;
+}
+.section_apropos .col-md-6 h2 span{
+    color: #ff5080;
+}
+.section_apropos .col-md-6 h3{
+    font-family: 'pourPara';
+    font-size: 26px;
+    color: #ff5080;
+    margin-bottom: 3%;
+}
+.section_apropos .col-md-6 p{
+    font-family: 'pourPara';
+    font-size: 18px;
+    color: #3F3D56;
+}
+.section_apropos .col-md-6 p b{
+    color: #ff5080;
+}
+.section_apropos .col-md-6 .btn-primary{
+    border-radius: 25px;
+    font-size: 17px;
+    font-family: 'pourPara';
+    width: 240px;
+    height: 46px;
+    border-color: #ff5080;
+    background-color: #ff5080;
+}
+.section_apropos .col-md-6 .btn-primary:hover{
+    border-color: #a4163c;
+    background-color: #a4163c;
+}
+/*style formations*/
+.section_formation{
+    border-top: 2px solid #F4F4F4;
+    margin-bottom: 5%;
+}
+.section_formation h1{
+    text-align: center;
+    margin-top: 3%;
+    color: #ff5080;
+    font-family: 'pourPara';
+    font-size: 35px;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+}
+.section_formation  .col-md-3{
+    margin-bottom: 3%;
+}
+.section_formation .col-md-3 .card{
+    border-radius: 18px;
+    box-shadow: 1px 1px 12px #706e6e43;
+    border: none;
+    height: 100%;
+}
+.section_formation .col-md-3 .card:hover{
+    box-shadow: 1px 1px 12px #ff507f7a;
+}
+.section_formation .col-md-3 .card img{
+    background-color: #F4F4F4;
+    width: 45%;
+    position: relative;
+    margin-left: 28%;
+}
+.section_formation .col-md-3 .card .card-title{
+    font-family: 'pourPara';
+    color: #ff5080;
+    text-align: center;
+    font-size:20px;
+    text-transform: capitalize;
+}
+.section_formation .col-md-3 .card ul li{
+    list-style-type: none;
+    font-family: 'pourPara';
+    font-size:17px;
+    color: #3F3D56;
+    text-align: left;
+}
+/*partie expérience professionelle */
+.section_experience{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.873),rgba(0, 0, 0, 0.873)),url('images/experience.jpg');
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section_experience h1{
+    text-align: center;
+    font-family: 'pourPara';
+    color: #ff5080;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 5%;
+}
+.section_experience hr{
+    margin-bottom: 3%;
+    color: white;
+    opacity: 0.5;
+}
+.section_experience .col-md-6{
+    color: white;
+    font-family: 'pourPara';
+    margin-bottom: 5%;
+}
+.section_experience .col-md-6 ul li{
+    list-style-type: none;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+.section_experience .col-md-6 ul li .span1{
+    color: #ff5080;
+    text-transform: uppercase;
+}
+/*style pour la partie service*/
+.section_service{
+   background-color: #F4F4F4;
+}
+.section_service h1{
+    font-size: 35px;
+    font-family: 'pourPara';
+    color: #ff5080;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.section_service .col-md-3{
+    margin-bottom: 5%;
+}
+.section_service .col-md-3 .card{
+    border-radius: 18px;
+    box-shadow: 1px 1px 12px #706e6e43;
+    border: none;
+    height: 100%;
+    background-color: #F4F4F4;
+}
+.section_service .col-md-3 .card:hover{
+    box-shadow: 1px 1px 12px #ff507f7a;
+}
+.section_service .col-md-3 .card img{
+    background-color: #F4F4F4;
+    width: 28%;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 4%;
+}
+.section_service .col-md-3 .card .card-title{
+    font-family: 'pourPara';
+    color: #ff5080;
+    text-align: center;
+    font-size:20px;
+    text-transform: capitalize;
+}
+.section_service .col-md-3 .card ul li{
+    list-style-type: none;
+    font-family: 'pourPara';
+    font-size:17px;
+    color: #3F3D56;
+    text-align: left;
+    margin-left: -8px !important;
+}
+/*style pour la partie compétence*/
+.section_competence{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.873),rgba(0, 0, 0, 0.873)),url('images/image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section_competence h1{
+    font-size: 35px;
+    font-family: 'pourPara';
+    color: #ff5080;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4%;
+}
+.section_competence hr{
+    margin-bottom: 3%;
+    color: white;
+    opacity: 0.5;
+}
+.section_competence .col-md-5{
+    margin-bottom: 5%;
+}
+.section_competence .col-md-5 p{
+    font-size: 17px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'pourPara';
+}
+.progress-bar{
+   background-color: #ff5080 !important;
+}
+/*style projet*/
+
+.section_projet h1{
+    font-size: 35px;
+    font-family: 'pourPara';
+    color: #ff5080;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.section_projet a{
+    text-decoration: none !important;
+}
+.section_projet .col-md-3{
+    margin-bottom: 5%;
+}
+.section_projet .col-md-3 .card{
+    box-shadow: 1px 1px 12px #706e6e43;
+    border: none;
+    height: 100%;
+    background-color: white;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.section_projet .col-md-3 .card:hover{
+    box-shadow: 1px 1px 12px #ff507f7a;
+    visibility: visible;
+}
+.section_projet .col-md-3 .card img{
+    background-color: #F4F4F4;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+.section_projet .col-md-3 .card .card-title{
+    font-family: 'pourPara';
+    color: #3F3D56;
+    font-size:17px;
+}
+/*style pour la partie contact*/
+.section_contact{
+    border-top: 2px solid #F4F4F4;
+    height:auto;
+}
+.section_contact .container{
+    margin-bottom: 4%;
+}
+.section_contact h1{
+    font-size: 35px;
+    font-family: 'pourPara';
+    color: #ff5080;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.section_contact .col-md-5 form{
+    margin-top: 5%;
+    font-family: 'pourPara';
+}
+.section_contact .col-md-5 form label{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #3F3D56;
+    margin-top: 3%;
+}
+.section_contact .col-md-5 form input{
+    border-radius: 0px;
+    color: #3F3D56;
+    text-transform: lowercase;
+    border-color: #ff5080;
+}
+.section_contact .col-md-5 form textarea{
+    border-radius: 0px;
+    text-transform: capitalize;
+    color: #3F3D56;
+    border-color: #ff5080;
+}
+.section_contact .col-md-5 form .btn-danger{
+    background-color: #ff5080;
+    border-color: #ff5080;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-radius: 0px;
+}
+.section_contact .col-md-5 form .btn-danger:hover{
+    background-color: #f90e4c;
+    border-color: #f90e4c;
+}
+/*style poiur la partie foooter*/
+.section_footer{
+    background-color: #3F3D56;
+    color: white;
+    font-family: 'pourPara';
+}
+.section_footer .container{
+    margin-top: 3%;
+}
+.section_footer .col-md-4{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.section_footer .col-md-4 h1{
+    font-size: 22px;
+}
+.section_footer .col-md-4 hr{
+    color: #ff5080;
+    opacity: 15;
+    width: 50%;
+    border: 1px solid #ff5080;
+}
+.section_footer .col-md-4 p{
+    font-size: 17px;
+}
+.section_footer .col-md-4 p a{
+    color: white;
+    text-decoration: none;
+}
+.section_footer .col-md-4 p a:hover{
+    color: #ff5080;
+    text-decoration: underline;
+}
+.section_footer .col-md-4 ul li{
+    list-style-type: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.section_footer .col-md-4 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.section_footer .col-md-4 ul li a:hover{
+    color: #ff5080;
+    text-decoration: underline;
+}
+.section_footer .col-md-4 .reso li{
+    display: inline;
+    margin: 6px;
+    font-size: 30px;
+}
+.section_footer  .copy{
+    margin-bottom: 2%;
+    text-align: center;
+}
