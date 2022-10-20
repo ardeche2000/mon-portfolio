@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'pourPara';
+    src: url("font/Euclid\ Circular\ A\ Light.ttf") format("truetype");
+    }
+.header{
+    height: 100vh;
+    font-family: 'pourPara';
+}
+.header .container .col-md-5{
+    margin-top: 15%;
+}
+.header .alert-success{
+    border-radius: 16px;
+    font-size: 18px;
+    background-color: rgb(12, 141, 8);
+    border-color: rgb(12, 141, 8);
+    border: 0px;
+    color: white;
+}
+.header p{
+    font-size: 17px;
+    color: #3F3D56;
+}
+.header p span{
+    font-size: 18px;
+    color: red;
+}
